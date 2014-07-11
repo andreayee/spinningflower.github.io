@@ -1,0 +1,43 @@
+html {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 50px;
+  color: grey;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.box {
+        &:hover {
+    -webkit-transform: rotate(7200deg);
+    transition: all 4s linear;
+    -webkit-transform-origin: 50% 50% 0;
+    }
+}
+
+
+
+.one {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50% ;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    
+}
+
+
+
+
